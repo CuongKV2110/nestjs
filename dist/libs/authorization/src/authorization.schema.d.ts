@@ -1,0 +1,18 @@
+import { ApiBodyOptions, ApiResponseOptions } from '@nestjs/swagger';
+import { SchemaObject } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface';
+export declare const addRoleSchema: SchemaObject;
+export declare const updateRoleSchema: SchemaObject;
+export declare const updateUserPermissionSchema: SchemaObject;
+export declare const updateRolePermissionsSchema: SchemaObject;
+export declare const exampleResponse: ApiResponseOptions;
+export declare const listPermissionExampleResponse: ApiResponseOptions;
+export declare const listRoleExampleResponse: ApiResponseOptions;
+export declare const addRoleExampleResponse: ApiResponseOptions;
+export declare const listUserPermissionExampleResponse: ApiResponseOptions;
+export declare const listRolePermissionExampleResponse: ApiResponseOptions;
+export declare const userPermissionExampleResponse: ApiResponseOptions;
+export declare const addRoleApiBody: ApiBodyOptions;
+export declare const updateRoleApiBody: ApiBodyOptions;
+export declare const hiddenRoleApiBody: ApiBodyOptions;
+export declare const updateRolePermissionApiBody: ApiBodyOptions;
+export declare const updateUserPermissionApiBody: ApiBodyOptions;

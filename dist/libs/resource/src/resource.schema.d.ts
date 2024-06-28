@@ -1,0 +1,16 @@
+import { ApiBodyOptions, ApiResponseOptions } from '@nestjs/swagger';
+import { SchemaObject } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface';
+export declare const listResourceSchema: SchemaObject;
+export declare const addResourceSchema: SchemaObject;
+export declare const updateResourceSchema: SchemaObject;
+export declare const updateStatusResourceSchema: SchemaObject;
+export declare const createResourceSingleSchema: SchemaObject;
+export declare const exampleResponse: ApiResponseOptions;
+export declare const getResourceInfoExampleResponse: ApiResponseOptions;
+export declare const getListResourceExampleResponse: ApiResponseOptions;
+export declare const getDetailResourceExampleResponse: ApiResponseOptions;
+export declare const getResourceByTypeExampleResponse: ApiResponseOptions;
+export declare const createResourceApiBody: ApiBodyOptions;
+export declare const updateResourceApiBody: ApiBodyOptions;
+export declare const updateStatusResourceApiBody: ApiBodyOptions;
+export declare const createResourceSingleApiBody: ApiBodyOptions;

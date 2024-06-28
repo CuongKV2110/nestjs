@@ -1,0 +1,1 @@
+{"version":3,"file":"send-mail.module.js","sourceRoot":"","sources":["../../../../libs/send-mail/src/send-mail.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,+EAAwE;AACxE,2DAAsD;AAM/C,IAAM,cAAc,GAApB,MAAM,cAAe,SAAQ,qDAAuB;CAAG,CAAA;AAAjD,wCAAc;yBAAd,cAAc;IAJ1B,IAAA,eAAM,EAAC;QACN,SAAS,EAAE,CAAC,mCAAe,CAAC;QAC5B,OAAO,EAAE,CAAC,mCAAe,CAAC;KAC3B,CAAC;GACW,cAAc,CAAmC"}

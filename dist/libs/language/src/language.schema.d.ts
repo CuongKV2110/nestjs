@@ -1,0 +1,18 @@
+import { ApiBodyOptions, ApiResponseOptions } from '@nestjs/swagger';
+import { SchemaObject } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface';
+export declare const addLanguageSchema: SchemaObject;
+export declare const updateLanguageSchema: SchemaObject;
+export declare const addLanguageKeySchema: SchemaObject;
+export declare const updateLanguageKeySchema: SchemaObject;
+export declare const updateFileLanguageSchema: SchemaObject;
+export declare const exampleResponse: ApiResponseOptions;
+export declare const getLanguageInfoExampleResponse: ApiResponseOptions;
+export declare const getListLanguageResponse: ApiResponseOptions;
+export declare const listLanguageKeyResponse: ApiResponseOptions;
+export declare const getFileLanguageExampleResponse: ApiResponseOptions;
+export declare const listEnvironmentsExampleResponse: ApiResponseOptions;
+export declare const addLanguageApiBody: ApiBodyOptions;
+export declare const updateLanguageApiBody: ApiBodyOptions;
+export declare const addLanguageKeyApiBody: ApiBodyOptions;
+export declare const updateLanguageKeyApiBody: ApiBodyOptions;
+export declare const updateFileLanguageApiBody: ApiBodyOptions;

@@ -1,0 +1,60 @@
+[2024-05-24T16:03:55.559] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3544:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 108,
+      title: 'hyhyhy',
+      reason: 'Bi Om',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-24T16:04:37.799] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3544:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 108,
+      title: 'hyhyhy',
+      reason: 'Bi Om',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-24T16:05:40.776] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3544:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 99,
+      title: 'hyhyhy',
+      reason: 'Bi Om',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}

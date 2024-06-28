@@ -1,0 +1,71 @@
+[2024-05-29T15:42:24.115] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3664:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/user/1',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-29T15:42:29.798] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3664:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/user/1',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-29T16:33:35.023] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [
+      'Start time must be less than end time and the duration must not exceed 24 hours'
+    ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create',
+    body: {
+      type: 0,
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      startTime: '2024-05-29T21:00:00',
+      endTime: '2024-05-29T19:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}

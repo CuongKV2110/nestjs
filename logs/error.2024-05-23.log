@@ -1,0 +1,462 @@
+[2024-05-23T09:33:47.263] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'ID is required', 'ID must be a number' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      id: 99,
+      title: 'dffdf',
+      reason: 'sdfdsdsf',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:01:56.649] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3547:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 99,
+      title: 'dffdf',
+      reason: 'sdfdsdsf',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:10:12.079] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3548:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 99,
+      title: 'HIhi',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:18:49.244] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3548:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 107,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:19:04.146] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3549:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 107,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:19:11.592] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3549:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 99,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:19:39.913] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3550:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 99,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:21:14.307] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3550:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 99,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:23:19.965] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3553:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 99,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:23:42.480] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3552:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 99,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:24:07.549] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3552:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 98,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:24:49.963] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3553:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 98,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:26:02.421] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3552:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 98,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:26:39.120] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3552:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 101,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:26:42.744] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3552:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 102,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:28:19.890] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3553:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 102,
+      title: 'ewrưểwwểwew',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:28:25.342] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3553:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 102,
+      title: 'hyhyhy',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T14:29:05.777] [ERROR] AllExceptionsFilter - undefined Error: Error processing update request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3554:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/update',
+    body: {
+      requestId: 102,
+      title: 'hyhyhy',
+      reason: 'tẻtrrr',
+      receiverRequest: 'ddfb1923-0e3a-4716-b421-c0c553a3d82a',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T14:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T15:45:53.999] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [
+      'requestType must be a positive integer',
+      'requestType must be an integer number',
+      'Page must be at least 1',
+      'page must be an integer number',
+      'PageSize must be at least 1',
+      'pageSize must be an integer number'
+    ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/project/list-project',
+    body: { requestType: 2 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T15:46:58.133] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'Page must be at least 1' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/project/list-project?requestType=2&page=0&pageSize=2',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T15:47:09.050] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'requestType must be a positive integer' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/project/list-project?requestType=0&page=1&pageSize=2',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-23T16:08:17.415] [ERROR] AllExceptionsFilter - undefined Error: Fail when get Project Participated
+    at ProjectService.getProjectParticipated (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:2982:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'GET',
+    url: '/client/project/list-project?page=1&pageSize=10',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}

@@ -1,0 +1,362 @@
+[2024-05-22T10:21:03.274] [ERROR] AllExceptionsFilter - undefined Error: Failed to log in
+    at UserService.login (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3735:19)
+    at UserController.login (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3625:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'POST',
+    url: '/client/user/login',
+    body: { userName: 'cuongkv', password: '************************' },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T14:57:32.082] [ERROR] AllExceptionsFilter - undefined Error: Error processing time-off request
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3415:23
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EntityManager.transaction (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/entity-manager/EntityManager.ts:154:28) {
+  request: {
+    method: 'POST',
+    url: '/client/request/create',
+    body: {
+      type: 0,
+      receiverRequest: 'cfe74ff6-29d2-4f41-a0db-6a9d156c0924',
+      title: 'NI om',
+      reason: 'Dau chan',
+      startTime: '2024-05-06T12:00:00',
+      endTime: '2024-05-06T19:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:22:29.091] [ERROR] AllExceptionsFilter - undefined [
+  request: {
+    method: 'GET',
+    url: '/client/request/received-request',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+]
+[2024-05-22T15:37:50.848] [ERROR] AllExceptionsFilter - undefined Error: Error when get detail
+    at RequestService.getRequestDetail (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3494:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/99',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:38:27.934] [ERROR] AllExceptionsFilter - undefined Error: Error when get detail
+    at RequestService.getRequestDetail (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3494:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/99',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:45:20.585] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'requestId must be an integer number' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { id: 99, status: 4 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:50:46.237] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:51:10.423] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:51:23.488] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:51:25.066] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:52:05.439] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:52:48.672] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:69)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:54:05.779] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'us')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:55:38.286] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'us')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3251:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:56:15.806] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'us')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:57:39.873] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'us')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:57:59.971] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'us')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:58:37.979] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'us')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:69)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T15:59:12.314] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T16:00:25.727] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 3 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T16:00:48.464] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 2 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T16:00:59.927] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 99, status: 2 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T16:01:35.200] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:60)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 109, status: 2 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T16:03:07.095] [ERROR] AllExceptionsFilter - undefined TypeError: Cannot read properties of undefined (reading 'user')
+    at RequestController.handleRequest (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3250:25)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 109, status: 2 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T17:03:05.963] [ERROR] AllExceptionsFilter - undefined Error: Error when get detail
+    at RequestService.getRequestDetail (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3500:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/109',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T17:03:17.873] [ERROR] AllExceptionsFilter - undefined Error: Error when get detail
+    at RequestService.getRequestDetail (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3500:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/99',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-22T17:03:49.954] [ERROR] AllExceptionsFilter - undefined Error: Error when get detail
+    at RequestService.getRequestDetail (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3500:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/107',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}

@@ -1,0 +1,297 @@
+[2024-05-28T09:04:17.522] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'userName should not be empty', 'userName must be a string' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/register',
+    body: {
+      username: 'cuong.kieuvan',
+      email: 'cuongkv.it@amela.vn',
+      password: '************************',
+      role: 1
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T10:02:53.651] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'email must be an email' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/login',
+    body: {
+      email: 'cuongkv.itamela.vn',
+      password: '************************'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T10:07:18.936] [ERROR] AllExceptionsFilter - undefined NotFoundException: Cannot GET /client/user
+    at callback (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:328:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:280:10)
+    at LoggerReqMiddleware.use (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4467:9)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5) {
+  response: {
+    message: 'Cannot GET /client/user',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/user',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T10:29:51.685] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'email must be an email' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/login',
+    body: {
+      email: 'cuongkv.kieuvan2@@amela.vn',
+      password: '************************'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T10:30:13.920] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'password must be a string' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/login',
+    body: {
+      email: 'cuongkv.kieuvan2@amela.vn',
+      password: '************************'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T10:30:25.471] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'email should not be empty', 'email must be an email' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/login',
+    body: { email: '', password: '************************' },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T15:16:35.951] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Token not provided
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3656:19)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: {
+    message: 'Token not provided',
+    error: 'Forbidden',
+    statusCode: 403
+  },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/logout',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T15:19:00.429] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Token not provided
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3656:19)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: {
+    message: 'Token not provided',
+    error: 'Forbidden',
+    statusCode: 403
+  },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/logout',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T15:20:06.837] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Token not provided
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3656:19)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: {
+    message: 'Token not provided',
+    error: 'Forbidden',
+    statusCode: 403
+  },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/logout/1',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T16:49:26.899] [ERROR] AllExceptionsFilter - undefined QueryFailedError: Unknown column 'refreshToken' in 'where clause'
+    at Query.onResult (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/src/driver/mysql/MysqlQueryRunner.ts:246:33)
+    at Query.execute (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+    at Socket.Readable.push (node:internal/streams/readable:375:5) {
+  query: 'SELECT `User`.`id` AS `User_id`, `User`.`email` AS `User_email`, `User`.`password` AS `User_password`, `User`.`username` AS `User_username`, `User`.`role` AS `User_role`, `User`.`created_at` AS `User_created_at`, `User`.`updated_at` AS `User_updated_at` FROM `user` `User` WHERE ((`User`.`refresh_token` = ?)) LIMIT 1',
+  parameters: [
+    {
+      refreshToken: '592c9a5df5ae9d175cb5007be57ba615bb023bb077b8b8b0ef3620bd9b807a6d581c8f8da2fee8661fd21136f4c21ecc1172ab40c34bbfaf2118b2758661a500'
+    }
+  ],
+  driverError: Error: Unknown column 'refreshToken' in 'where clause'
+      at Packet.asError (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/connection.js:481:34)
+      at PacketParser.onPacket (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/connection.js:97:12)
+      at PacketParser.executeStart (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/mysql2/lib/connection.js:104:25)
+      at Socket.emit (node:events:514:28)
+      at addChunk (node:internal/streams/readable:545:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+      at Socket.Readable.push (node:internal/streams/readable:375:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'refreshToken' in 'where clause'",
+    sql: "SELECT `User`.`id` AS `User_id`, `User`.`email` AS `User_email`, `User`.`password` AS `User_password`, `User`.`username` AS `User_username`, `User`.`role` AS `User_role`, `User`.`created_at` AS `User_created_at`, `User`.`updated_at` AS `User_updated_at` FROM `user` `User` WHERE ((`User`.`refresh_token` = `refreshToken` = '592c9a5df5ae9d175cb5007be57ba615bb023bb077b8b8b0ef3620bd9b807a6d581c8f8da2fee8661fd21136f4c21ecc1172ab40c34bbfaf2118b2758661a500')) LIMIT 1"
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'refreshToken' in 'where clause'",
+  sql: "SELECT `User`.`id` AS `User_id`, `User`.`email` AS `User_email`, `User`.`password` AS `User_password`, `User`.`username` AS `User_username`, `User`.`role` AS `User_role`, `User`.`created_at` AS `User_created_at`, `User`.`updated_at` AS `User_updated_at` FROM `user` `User` WHERE ((`User`.`refresh_token` = `refreshToken` = '592c9a5df5ae9d175cb5007be57ba615bb023bb077b8b8b0ef3620bd9b807a6d581c8f8da2fee8661fd21136f4c21ecc1172ab40c34bbfaf2118b2758661a500')) LIMIT 1",
+  request: {
+    method: 'POST',
+    url: '/client/user/refresh',
+    body: { refreshToken: '************************' },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-28T16:51:09.321] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid refresh token
+    at UserService.refresh (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4062:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    message: 'Invalid refresh token',
+    error: 'Forbidden',
+    statusCode: 403
+  },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/user/refresh',
+    body: { refreshToken: '************************' },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}

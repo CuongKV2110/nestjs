@@ -1,0 +1,205 @@
+[2024-06-06T09:30:02.478] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [
+      'projectId must be an integer number',
+      'typeRequest must be an integer number'
+    ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/logwork?projectId=81&typeRequest=1',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-06T09:37:14.551] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [
+      'projectId must be an integer number',
+      'typeRequest must be an integer number',
+      'Page must be at least 1',
+      'page must be an integer number',
+      'PageSize must be at least 1',
+      'pageSize must be an integer number'
+    ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/logwork?projectId=81&typeRequest=1',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-06T09:37:45.481] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [
+      'projectId must be an integer number',
+      'typeRequest must be an integer number'
+    ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/logwork?projectId=81&typeRequest=1&page=1&pageSize=2',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-06T09:40:31.923] [ERROR] AllExceptionsFilter - undefined Error: You do not have permission to create project
+    at ProjectService.createProject (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3028:19)
+    at ProjectController.createProject (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:2889:36)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'POST',
+    url: '/client/project/create',
+    body: {
+      projectName: 'App',
+      projectManagerId: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      startDate: '2024-05-14T12:00:00',
+      endDate: '2024-10-20T08:00:00',
+      description: 'APp School',
+      members: [Array]
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-06T09:42:44.255] [ERROR] AllExceptionsFilter - undefined Error: You do not have permission to create project
+    at ProjectService.createProject (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3028:19)
+    at ProjectController.createProject (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:2889:36)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'POST',
+    url: '/client/project/create',
+    body: {
+      projectName: 'App',
+      projectManagerId: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      startDate: '2024-05-14T12:00:00',
+      endDate: '2024-10-20T08:00:00',
+      description: 'APp School',
+      members: [Array]
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-06T09:43:11.160] [ERROR] AllExceptionsFilter - undefined Error: You do not have permission to create project
+    at ProjectService.createProject (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3029:19)
+    at ProjectController.createProject (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:2889:36)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  request: {
+    method: 'POST',
+    url: '/client/project/create',
+    body: {
+      projectName: 'App',
+      projectManagerId: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      startDate: '2024-05-14T12:00:00',
+      endDate: '2024-10-20T08:00:00',
+      description: 'APp School',
+      members: [Array]
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-06T10:35:13.803] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4043:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/logwork?projectId=87&typeRequest=1&page=1&pageSize=5',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-06T14:41:20.901] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4043:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/logwork/detail/29',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-06T15:56:50.788] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4035:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/logwork?projectId=87&typeRequest=1&page=1&pageSize=5',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}

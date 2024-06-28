@@ -1,0 +1,81 @@
+[2024-06-04T10:04:55.254] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3988:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/request/received-request',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-04T14:55:33.145] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3986:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/request/received-request',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-04T15:33:09.358] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3990:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/chat/create',
+    body: {
+      chatName: 'Chem gio',
+      isPrivate: 0,
+      description: 'Hoi chi em 9x',
+      members: [Array]
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-06-04T16:34:47.205] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3990:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/chat/send-message',
+    body: { content: 'Hello', groupChatId: 44 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}

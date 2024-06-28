@@ -1,0 +1,432 @@
+[2024-05-30T10:17:45.535] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3749:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/chat/create',
+    body: {
+      chatName: 'Hhihi',
+      isPrivate: 0,
+      description: 'The applcation of Amela',
+      members: [Array]
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T11:15:24.602] [ERROR] AllExceptionsFilter - undefined NotFoundException: Cannot POST /client/request/create/time-off
+    at callback (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:328:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:280:10)
+    at LoggerReqMiddleware.use (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4814:9)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5) {
+  response: {
+    message: 'Cannot POST /client/request/create/time-off',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/time-off',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      startTime: '2024-05-29T18:00:00',
+      endTime: '2024-05-29T19:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T11:15:33.225] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3844:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/time-off',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      startTime: '2024-05-29T18:00:00',
+      endTime: '2024-05-29T19:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T14:59:34.786] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'End time must be a valid date string' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/time-off',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      startTime: '2024-05-29T18:00:00',
+      endTime: '2024-05-29T2:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T15:04:40.071] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'End time must be greater than start time' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/time-off',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      startTime: '2024-05-29T18:00:00',
+      endTime: '2024-05-29T12:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T15:11:29.136] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3883:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/time-off',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      startTime: '2024-05-29T18:00:00',
+      endTime: '2024-05-29T18:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T15:11:35.613] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'End time must be greater than start time' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/time-off',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      startTime: '2024-05-29T18:00:00',
+      endTime: '2024-05-29T18:00:00'
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T16:21:37.372] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3885:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/on-leave',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      hour: 1
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T16:21:43.581] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'hour must not be less than 2' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/on-leave',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      hour: 1
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T16:21:50.337] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'hour must not be greater than 8' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/on-leave',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      hour: 8.6
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T16:44:16.163] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3891:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/on-leave',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      hour: 9
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T16:44:21.939] [ERROR] AllExceptionsFilter - undefined BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at resolveParamValue (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 1)
+    at pipesFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:37:30 {
+  response: {
+    message: [ 'hour must not be greater than 8' ],
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {},
+  request: {
+    method: 'POST',
+    url: '/client/request/create/on-leave',
+    body: {
+      receiverRequest: 'c31d9d7c-b2d3-43bd-9237-00d8e5c09039',
+      title: 'Dau om',
+      reason: 'Dau chan',
+      hour: 9
+    },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T17:21:30.930] [ERROR] AllExceptionsFilter - undefined NotFoundException: Cannot GET /client/request/detail/on-leaave/134
+    at callback (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:328:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:280:10)
+    at LoggerReqMiddleware.use (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4898:9)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5) {
+  response: {
+    message: 'Cannot GET /client/request/detail/on-leaave/134',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/on-leaave/134',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T17:21:55.958] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3932:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/on-leave/134',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T17:29:31.318] [ERROR] AllExceptionsFilter - undefined NotFoundException: Cannot GET /client/request/detail/on-leave/134
+    at callback (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:328:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:280:10)
+    at LoggerReqMiddleware.use (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4922:9)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5) {
+  response: {
+    message: 'Cannot GET /client/request/detail/on-leave/134',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/on-leave/134',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
+[2024-05-30T17:31:02.859] [ERROR] AllExceptionsFilter - undefined NotFoundException: Cannot GET /client/request/detail/?type=1&requestId=134
+    at callback (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:328:13)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/index.js:280:10)
+    at LoggerReqMiddleware.use (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:4922:9)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/express/lib/router/layer.js:95:5) {
+  response: {
+    message: 'Cannot GET /client/request/detail/?type=1&requestId=134',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {},
+  request: {
+    method: 'GET',
+    url: '/client/request/detail/?type=1&requestId=134',
+    body: {},
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}

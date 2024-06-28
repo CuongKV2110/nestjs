@@ -1,0 +1,19 @@
+[2024-05-31T09:46:26.701] [ERROR] AllExceptionsFilter - undefined ForbiddenException: Invalid token
+    at AuthGuard.canActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/dist/apps/api/main.js:3959:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GuardsConsumer.tryActivate (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/guards/guards-consumer.js:16:17)
+    at canActivateFn (/Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /Users/cuongkv-phoenix/Desktop/NodeJS/nestjs-cuong.kieuvan/node_modules/@nestjs/core/router/router-proxy.js:9:17 {
+  response: { message: 'Invalid token', error: 'Forbidden', statusCode: 403 },
+  status: 403,
+  options: {},
+  request: {
+    method: 'PUT',
+    url: '/client/request/handle-request',
+    body: { requestId: 134, status: 2 },
+    ip: '::1',
+    payload: undefined
+  },
+  env: 'development'
+}
